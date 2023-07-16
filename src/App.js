@@ -16,7 +16,7 @@ function App() {
             <Route exact path="/add" element={<CreateNewUser />}></Route>
             <Route exact path="/usertable" element={<UserTable />}></Route>
           </Routes>
-        </BrowserRouter>
+        </BrowserRouter>  
       </Provider>
     </div>
   );
