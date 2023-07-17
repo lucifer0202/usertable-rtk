@@ -3,11 +3,11 @@ import { useDispatch } from "react-redux";
 import { saveData } from "../slices/dataSlice";
 import { TextField, Button, Paper, Typography } from "@mui/material";
 import Navbar from "../components/navbar";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const CreateNewUser = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
